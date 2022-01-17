@@ -3,7 +3,13 @@ package com.example.ejemplo_abar_nview;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -20,6 +26,12 @@ public class nvUsers extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityNvUsersBinding binding;
+    RequestQueue rqueue;
+    EditText usr, pass;
+    Button login;
+    ImageView P_imgProfile;
+    TextView Username;
+    TextView mail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +39,7 @@ public class nvUsers extends AppCompatActivity {
 
         binding = ActivityNvUsersBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
 
         setSupportActionBar(binding.appBarNvUsers.toolbar);
         binding.appBarNvUsers.fab.setOnClickListener(new View.OnClickListener() {

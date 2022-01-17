@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/activity_act_menu.xml" value="0.209375" />
         <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/activity_main.xml" value="0.5" />
-        <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/content_nv_users.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/activity_nv_users.xml" value="0.209375" />
+        <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/content_nv_users.xml" value="0.25" />
         <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/framelayou.xml" value="0.25" />
         <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/main_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/jeyso/StudioProjects/Ejemplo_ABar_NView/app/src/main/res/layout/nav_header_nv_users.xml" value="0.209375" />
       </map>
     </option>
   </component>
