@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ejemplo_ABar_NView">
         <activity
+            android:name=".nvUsers"
+            android:exported="false"
+            android:label="@string/title_activity_nv_users"
+            android:theme="@style/Theme.Ejemplo_ABar_NView.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
